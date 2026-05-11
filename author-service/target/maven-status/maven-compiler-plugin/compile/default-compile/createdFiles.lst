@@ -1,0 +1,5 @@
+com\dolsoft\authorservice\model\Author.class
+com\dolsoft\authorservice\AuthorServiceApplication.class
+com\dolsoft\authorservice\controller\AuthorController.class
+com\dolsoft\authorservice\repository\AuthorRepository.class
+com\dolsoft\authorservice\service\AuthorService.class

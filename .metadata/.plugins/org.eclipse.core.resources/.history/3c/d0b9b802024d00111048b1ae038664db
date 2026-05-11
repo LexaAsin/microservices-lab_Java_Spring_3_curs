@@ -1,0 +1,11 @@
+spring.datasource.url=jdbc:postgresql://localhost:5432/licenses_dev
+spring.datasource.username=postgres
+spring.datasource.password={cipher}e303178d0a879908db057b62627e1a158e11c50d232a06ac5f4ffed5eabf00dc
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+eureka.client.serviceUrl.defaultZone=http://localhost:8070/eureka/
+eureka.client.registerWithEureka=true
+eureka.client.fetchRegistry=true
+eureka.instance.preferIpAddress=true

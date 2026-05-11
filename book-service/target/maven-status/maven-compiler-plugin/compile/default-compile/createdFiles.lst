@@ -1,0 +1,4 @@
+com\dolsoft\bookservice\model\Book.class
+com\dolsoft\bookservice\BookServiceApplication.class
+com\dolsoft\bookservice\service\BookService.class
+com\dolsoft\bookservice\controller\BookController.class

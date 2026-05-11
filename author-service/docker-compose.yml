@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  author-service:
+    image: lexaasin/author-service
+    ports:
+      - "8081:8080"
+    container_name: author-service-compose
+
+  book-service:
+    image: lexaasin/book-service
+    ports:
+      - "8082:8080"
+    container_name: book-service-compose
